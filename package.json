@@ -6,9 +6,9 @@
   "scripts": {
      "api-tests": "newman run Amixr.postman_collection.json"
   },
-  "author": "QZull",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "newman": "^4.5.7"
   }
-}      
+]      
