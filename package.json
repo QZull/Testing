@@ -1,14 +1,14 @@
 {
-  "name": "api-tests",
-  "version": "1.0.0",
-  "description": "testing Stage Demo",
-
-  "scripts": {
-     "api-tests": "newman run Amixr.postman_collection.json"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "newman": "^4.5.7"
-  }
+    "name": "api_tests",
+    "version": "1.0.0",
+    "description": "testing Stage Demo",
+    
+    "scripts": {
+        "api-tests": "newman run Amixr.postman_collection.json"
+    },
+    "author": "",
+    "locense": "ISC",
+    "dependencies": {
+        "newman": "^4.5.7"
+    }
 }
