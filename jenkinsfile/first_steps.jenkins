@@ -1,6 +1,8 @@
+#!groovy
+//скрипт
 node {
     stage('Postman tests') {
-        git 'https://github.com/QZull/Testing.git'
+        git 'https://github.com/QZull/Testing/tree/master/Postman_Test'
         sh 'npm install'
         try {
             sh 'npm run api-tests'
