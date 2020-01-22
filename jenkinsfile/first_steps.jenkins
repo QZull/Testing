@@ -2,7 +2,7 @@
 //скрипт
 node {
     stage('Postman tests') {
-        git 'Postman_Test/'
+        git 'https://github.com/QZull/Testing.git'
         sh 'npm install'
         try {
             sh 'npm run api-tests'
