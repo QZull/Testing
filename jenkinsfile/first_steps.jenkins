@@ -14,7 +14,7 @@ node {
 }
 //запуск тестов
 {
-  "name": "api_tests",
+  "name": "api-tests",
   "version": "1.0.0",
   "description": "testing Stage Demo",
 	
